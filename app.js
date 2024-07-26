@@ -30,3 +30,11 @@ function playPause(){
      progress.value = song.currentTime;
         },500)
     }
+
+
+    progress.onchange = function(){
+        song.play();
+        song.currentTime = progress.value;
+        contIcon.classList.add("fa-pause");
+        contIcon.classList.remove("fa-play");
+    }
