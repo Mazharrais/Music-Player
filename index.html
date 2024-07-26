@@ -30,7 +30,7 @@
  
   <br>
 
-   <audio controls>
+   <audio controls id="song">
     <source src="images/Harry-Potter-Theme.mp3" type="audio/mpeg">
    </audio>
     <input type="range" value="0" id="progress">
@@ -38,7 +38,7 @@
     <div class="controls">
 
     <div><i class="fa-solid fa-backward"></i></div>
-    <div><i class="fa-solid fa-play"></i></div>
+    <div onclick="playPause()"><i class="fa-solid fa-play" id="contIcon"></i></div>
     <div><i class="fa-solid fa-forward"></i></div>
      
 
