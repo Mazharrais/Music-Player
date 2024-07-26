@@ -14,7 +14,7 @@
     flex-wrap: wrap;
 }
 .music-player{
-    background: #ffe0e5;
+    background: #9e547a;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
@@ -39,4 +39,14 @@ nav .circle{
     border: 8px solid #fff;
     box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
 
+}
+.music-player h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+}
+.music-player p{
+    font-size: 14px;
+    color: #efefef;
 }
